@@ -8,5 +8,5 @@ twitter_username: thedailyherold
 github_username:  dailyherold
 
 # Build settings
-markdown: markdown
+markdown: kramdown
 permalink: pretty
