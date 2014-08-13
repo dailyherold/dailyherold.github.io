@@ -1,8 +1,8 @@
 ---
 layout: post
 title: My Static Site Adventure Hath Begun
-date: {}
-categories: jekyll update
+date: 2014-08-09 15:20:00 
+categories: 
 published: true
 ---
 
@@ -14,3 +14,4 @@ published: true
 	console.log("That is all for now.");
 }());
 {% endhighlight %}
+
