@@ -1,9 +1,9 @@
 # Site settings
-title: Daily Herold
+title: DailyHerold
 email: contact@johnpaulherold.com
 description: "Developer by day, designer by night."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://dailyherold.net"
 twitter_username: thedailyherold 
 github_username:  dailyherold
 
