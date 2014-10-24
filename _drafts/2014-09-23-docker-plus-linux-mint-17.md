@@ -22,7 +22,7 @@ Not matematically accurate, but Docker has been on my mind [and terminal] a lot.
 
 Why start with Vagrant you ask? Answer, I had no experience with LXC containers and wanted an isolated environment to really get my hands dirty. Auxillary truth, CoreOS has always perked my interest, and I figured its' sweet [Vagrant repo]() would give me a superb Docker-friendly sandbox to test.
 
-72 hours later, I absorbed a lot (more to come), and wanted to get Docker running on my native OS. This should be easy I told myself, I've been running Docker on CoreOS (Vagrant), RHEL (Amazon), and the containers I've ran originated from a wide spectrum of base OS images...
+72 hours later, I absorbed a lot (more to come), and wanted to get Docker running on my native OS. This should be easy I told myself, I've been running Docker on CoreOS (Vagrant), RHEL (Amazon), and the images I've built originated from a wide spectrum of base OS images...
 
 #### *Problem*
 `Cannot connect to the Docker daemon. Is 'docker -d' running on this host?`
@@ -35,6 +35,8 @@ Found some good resources:
 - closed issue with suggested lxd (https://github.com/docker/docker/issues/4578)
 - others with my issue (https://github.com/docker/docker/issues/1899)
 - Mint recommends set to false (https://bugs.launchpad.net/linuxmint/+bug/1266234)
+***
+
 
 #### *Environment*
 {% highlight sh %}
@@ -51,5 +53,3 @@ DISTRIB_DESCRIPTION="Linux Mint 17 Qiana"
 NAME="Ubuntu"
 VERSION="14.04.1 LTS, Trusty Tahr"
 {% endhighlight %}
-
-#### *The Problem*
