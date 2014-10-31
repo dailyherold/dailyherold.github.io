@@ -2,7 +2,7 @@
 layout: post
 title: Scroll Like A Ninja - Logitech M570 Trackball & Linux Mint
 excerpt: Configure your M570's trackball to emulate the scroll wheel
-date: 2014-10-31 00:00:00
+date: 2014-10-31 01:00:00
 author: John Paul Herold
 categories: linux trackball m570
 published: true
