@@ -13,12 +13,12 @@ David, a co-worker of mine, was describing his *somewhat* affinity for the Apple
 
 "That would be nice," I thought. We code, we don't have a strict coding guidline, and horizontal scrolling extends far beyond 80px in many/all cases. Plus I am always happy on the Y-axis with my scrollwheel, but any x-axis movement still requires me to find the scroll bar and do it the old-school way. Cue Google rabbit hole...
 
-1. Google 'M570 Horizontal scrolling' -> [1st result](http://forums.logitech.com/t5/Mice-and-Pointing-Devices/M570-Horizontal-Scrolling/td-p/656358)
-  * _"People are thinking the same thing I am"_
-2. Google 'Universal scroll trackball' -> [1st result](http://forums.logitech.com/t5/Mice-and-Pointing-Devices/universal-scroll-on-marble-mouse/td-p/161730)
-  * _"A solution appears to exist, please Linux support...."_
-3. Google 'Marble mouse scroll wheel' -> [2nd result](https://wiki.archlinux.org/index.php/Logitech_Marble_Mouse)
-  * _"YES, ArchLinux documentation"_
+1. Google 'M570 Horizontal scrolling' -> [1st result][1]
+  * "People are thinking the same thing I am"
+2. Google 'Universal scroll trackball' -> [1st result][2]
+  * "A solution appears to exist, please Linux support...."
+3. Google 'Marble mouse scroll wheel' -> [2nd result][3]
+  * "YES, ArchLinux documentation"
 
 At this point I know a solution exists, although it seems all the guides are for the "Marble Mouse", Logitech's ambidextrous trackball:
 
@@ -52,9 +52,9 @@ EndSection
 
 I added the necessary settings to the default "InputClass" block, and with great anticipation I restarted my X server (I just log out and in). Result? No change. Time to debug...
 
-Luckily, I noticed at the bottom of the ArchLinux guide a reference to a [Ubuntu community guide](https://help.ubuntu.com/community/Logitech_Marblemouse_USB) which covered mostly the same information apart from a key 'Troubleshooting' section.
+Luckily, I noticed at the bottom of the ArchLinux guide a reference to a [Ubuntu community guide][4] which covered mostly the same information apart from a very helpful 'Troubleshooting' section.
 
-By tailing `/var/log/Xorg.0.log` and unplugging/re-plugging the Logitech wireless fob, I deducted some key information that led me to modify my config file like so:
+By tailing `/var/log/Xorg.0.log` and unplugging/re-plugging the Logitech wireless fob, I deducted some key information that, along with the rest of the guides, led me to modify my config file like so:
 
 {% highlight bash %}
 Section "InputClass"
@@ -111,3 +111,18 @@ DISTRIB_DESCRIPTION="Linux Mint 17 Qiana"
 NAME="Ubuntu"
 VERSION="14.04.1 LTS, Trusty Tahr"
 {% endhighlight %}
+
+***
+
+####*External References*
+1. [http://forums.logitech.com/t5/Mice-and-Pointing-Devices/M570-Horizontal-Scrolling/td-p/656358][1] - Logitech forum post that first alerted me to "Universal Scroll".
+2. [http://forums.logitech.com/t5/Mice-and-Pointing-Devices/universal-scroll-on-marble-mouse/td-p/161730][2] - Logitech forum post linking to several Marble Mouse specific Windows friendly utilities.
+3. [https://wiki.archlinux.org/index.php/Logitech_Marble_Mouse][3] - ArchLinux guide for the Logitech Marble Mouse.
+4. [https://help.ubuntu.com/community/Logitech_Marblemouse_USB][4] - Reference from ArchLinux guide which had the very helpful 'Troubleshooting' section.
+5. [http://forums.linuxmint.com/viewtopic.php?f=49&t=87176][5] - Honorable mention which listed basically the same information as the other guides but provides some moral support throughout the process.
+
+[1]: http://forums.logitech.com/t5/Mice-and-Pointing-Devices/M570-Horizontal-Scrolling/td-p/656358
+[2]: http://forums.logitech.com/t5/Mice-and-Pointing-Devices/universal-scroll-on-marble-mouse/td-p/161730 
+[3]: https://wiki.archlinux.org/index.php/Logitech_Marble_Mouse
+[4]: https://help.ubuntu.com/community/Logitech_Marblemouse_USB
+[5]: http://forums.linuxmint.com/viewtopic.php?f=49&t=87176
