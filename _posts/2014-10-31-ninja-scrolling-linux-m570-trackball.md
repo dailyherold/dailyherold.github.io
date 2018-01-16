@@ -22,11 +22,11 @@ David, a co-worker of mine, was describing his *somewhat* affinity for the Apple
 
 At this point I know a solution exists, although it seems all the guides are for the "Marble Mouse", Logitech's ambidextrous trackball:
 
-![Logitech Marble Mouse]({{ site.url }}/assets/marbleMouse.png)
+![Logitech Marble Mouse]({{ site.url }}/assets/images/marbleMouse.png)
 
 Which is great, and no offense against left-handers, but I think my Logitech M570 is the greatest [non-gaming] mouse in the world:
 
-![Logitech M570]({{ site.url }}/assets/m570.jpg)
+![Logitech M570]({{ site.url }}/assets/images/m570.jpg)
 
 - Wireless (with great battery life)
 - Insanely comfortable
