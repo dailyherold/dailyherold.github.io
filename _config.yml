@@ -4,6 +4,10 @@ email: contact@johnpaulherold.com
 description: "On the full stack journey."
 baseurl: ""
 url: "http://dailyherold.net"
+#remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
+
+# Variables
 twitter_username: dailyherold_
 github_username:  dailyherold
 
