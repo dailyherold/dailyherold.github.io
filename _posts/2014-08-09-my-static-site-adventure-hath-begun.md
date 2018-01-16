@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My Static Site Adventure Hath Begun
 date: 2014-08-09 15:20:00 
 author: John Paul Herold
