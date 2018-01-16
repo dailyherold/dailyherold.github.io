@@ -1,10 +1,10 @@
 # Site settings
-title: DailyHerold
-email: 
-description: "Developer by day, designer by night."
+title: Daily Herold
+email: contact@johnpaulherold.com
+description: "On the full stack journey."
 baseurl: ""
 url: "http://dailyherold.net"
-twitter_username: thedailyherold 
+twitter_username: dailyherold_
 github_username:  dailyherold
 
 # Build settings
