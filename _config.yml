@@ -8,7 +8,7 @@ locale                   : "en-US"
 title                    : "Daily Herold"
 title_separator          : "-"
 name                     : "John Paul Herold"
-description              : "Blog from the full stack journey."
+description              : "Blog from the full stack journey by John Paul Herold."
 url                      : "http://dailyherold.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "dailyherold/dailyherold.github.io"
@@ -83,9 +83,9 @@ analytics:
 # Site Author
 author:
   name             : "John Paul Herold"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "On the full stack journey."
-  location         : "Somewhere"
+  location         : "Dallas, TX"
   email            : "contact@johnpaulherold.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
