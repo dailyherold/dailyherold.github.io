@@ -1,10 +1,9 @@
 ---
-layout: post
 title: Scroll Like A Ninja - Logitech M570 Trackball & Linux Mint
 excerpt: Configure your M570's trackball to emulate the scroll wheel
 date: 2014-10-31 01:00:00
 author: John Paul Herold
-categories: linux trackball m570
+tags: linux trackball m570
 published: true
 ---
 ### This is how I configured my Logitech M570's trackball to act as a "scrollball"
@@ -22,11 +21,11 @@ David, a co-worker of mine, was describing his *somewhat* affinity for the Apple
 
 At this point I know a solution exists, although it seems all the guides are for the "Marble Mouse", Logitech's ambidextrous trackball:
 
-![Logitech Marble Mouse]({{ site.url }}/assets/marbleMouse.png)
+![Logitech Marble Mouse]({{ "/assets/images/marbleMouse.png" | absolute_url }})
 
 Which is great, and no offense against left-handers, but I think my Logitech M570 is the greatest [non-gaming] mouse in the world:
 
-![Logitech M570]({{ site.url }}/assets/m570.jpg)
+![Logitech M570]({{ "/assets/images/m570.jpg" | absolute_url }})
 
 - Wireless (with great battery life)
 - Insanely comfortable
