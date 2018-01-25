@@ -1,6 +1,6 @@
 # Jekyll settings
-#remote_theme: "mmistakes/minimal-mistakes"
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+#theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
