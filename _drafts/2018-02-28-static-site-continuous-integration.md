@@ -72,7 +72,7 @@ I had one instance where that wasn't the case, and involved me tweaking the site
 
 ### Result
 
-I get sweet sweet [automated builds](https://travis-ci.org/dailyherold/dailyherold.github.io) kicked off on every push that tests my site's dependencies, templating, config, and DNS resolution for my custom domain. I think this is great, but some of you may be thinking...
+I get sweet sweet [automated builds](https://travis-ci.org/dailyherold/dailyherold.github.io/branches) kicked off on every push that tests my site's dependencies, templating, config, and DNS resolution for my custom domain. I think this is great, but some of you may be thinking...
 
 > Why do all of this when I can just run `bundle exec jekyll build` and `bundle exec github-pages health-check` locally before pushing straight to `master`?
 
