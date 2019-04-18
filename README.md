@@ -21,3 +21,8 @@ All content created by John Paul Herold and powered by [GitHub Pages](https://pa
 
 - A successful static site generation via the build steps above is the majority of "testing" today.
 - In addition, the following command is run on Travis CI to test the DNS setup for the site's custom domain: `bundle exec github-pages health-check`.
+
+## TODO
+
+- Add [favicons](https://github.com/mmistakes/minimal-mistakes/issues/949) to site.
+- Use rvm to pin a version of Ruby, same as CI builds, for local development workflow.
