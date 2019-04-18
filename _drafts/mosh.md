@@ -1,12 +1,9 @@
 ---
-layout: post
 title: Mosh'd Up
 excerpt: A better remote terminal shell
-date: 2014-09-24 00:00:00 
-author: John Paul Herold
-categories: mosh
-published: true
+tags: ssh mosh
 ---
+
 ### Mosh is the best remote shell program I have used. If you `ssh` into servers, please read on.
 
 https://mosh.mit.edu/#techinfo
