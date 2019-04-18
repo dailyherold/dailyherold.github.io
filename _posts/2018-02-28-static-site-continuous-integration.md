@@ -9,7 +9,7 @@ tags: ci automation
 published: true
 ---
 
-In my [last post](http://dailyherold.io/2018/01/25/return-of-the-static-site/), I hinted at the "technical side" of how I got my GitHub Pages static site up and running again. Quick list of [things](https://github.com/dailyherold/dailyherold.github.io/compare/9c02c509e2a6b85a7c749248751ede1266d2e6eb...master) I did:
+In my [last post](https://dailyherold.io/2018/01/25/return-of-the-static-site/), I hinted at the "technical side" of how I got my GitHub Pages static site up and running again. Quick list of [things](https://github.com/dailyherold/dailyherold.github.io/compare/9c02c509e2a6b85a7c749248751ede1266d2e6eb...master) I did:
 
 - Re-acquainted myself with [GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) and [Jekyll](https://jekyllrb.com/docs/home/) documentation.
 - Added [TravisCI builds](https://travis-ci.org/dailyherold/dailyherold.github.io) for continuous integration goodness.
