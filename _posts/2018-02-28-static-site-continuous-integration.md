@@ -12,7 +12,7 @@ published: true
 In my [last post](https://dailyherold.io/2018/01/25/return-of-the-static-site/), I hinted at the "technical side" of how I got my GitHub Pages static site up and running again. Quick list of [things](https://github.com/dailyherold/dailyherold.github.io/compare/9c02c509e2a6b85a7c749248751ede1266d2e6eb...master) I did:
 
 - Re-acquainted myself with [GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) and [Jekyll](https://jekyllrb.com/docs/home/) documentation.
-- Added [TravisCI builds](https://travis-ci.org/dailyherold/dailyherold.github.io) for continuous integration goodness.
+- Added [TravisCI builds](https://travis-ci.com/dailyherold/dailyherold.github.io) for continuous integration goodness.
 - Made the README somewhat meaningful, and added the TravisCI build badge! This still needs lots of improvement.
 - Poured over the Minimal Mistakes theme [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/), which was very solid.
 - Then spent a [lot of time](https://github.com/dailyherold/dailyherold.github.io/commit/e1ba743f0482d3af5413243c64ff35f3bde7441b) figuring out how to transition my four year old repo to a new external theme.
@@ -72,7 +72,7 @@ I had one instance where that wasn't the case, and involved me tweaking the site
 
 ### Result
 
-I get sweet sweet [automated builds](https://travis-ci.org/dailyherold/dailyherold.github.io/branches) kicked off on every push that tests my site's dependencies, templating, config, and DNS resolution for my custom domain. I think this is great, but some of you may be thinking...
+I get sweet sweet [automated builds](https://travis-ci.com/dailyherold/dailyherold.github.io/branches) kicked off on every push that tests my site's dependencies, templating, config, and DNS resolution for my custom domain. I think this is great, but some of you may be thinking...
 
 > Why do all of this when I can just run `bundle exec jekyll build` and `bundle exec github-pages health-check` locally before pushing straight to `master`?
 
